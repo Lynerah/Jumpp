@@ -52,7 +52,6 @@ table {
 
 body{
 	height: 100%;
-	font-family: 'Oswald', sans-serif;
 }
 .container-fluid{
 	justify-content: flex-end!important;
@@ -109,6 +108,10 @@ body{
 	font-size: 20px;
 	line-height: 2;
 	font-family: 'Oswald', sans-serif;
+}
+.card-button:hover{
+	background-color: black;
+	color: white;
 }
 .btn-more-info{
 	width: 52%;
@@ -201,4 +204,49 @@ footer p{
 }
 .bold{
 	font-weight: bold;
+}
+
+@media screen and (min-width: 768px)
+{
+	
+	.container-cards{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.card-small{
+		width: 30%;
+		height: 310px;
+		margin: 1%;
+		margin-bottom: 6%;
+		}
+	.card-small img{
+		border-radius: 20px;
+	}
+	.card-large{
+		width: 30%;
+		height: 425px;
+		margin: 1%;
+		border-radius: 20px!important;	
+	}
+	.card-large img{
+		border-radius: 20px;
+		height: 100%;
+	}
+	.navbar-collapse{
+		justify-content: center;
+	}
+	.nav-item{
+		margin-right: 100px;
+	}
+	.nav-item a{
+		color: black!important;
+		margin: 5px;
+		background-color: transparent;
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+	}
+	.nav-item a:hover{
+		text-decoration: underline;
+	}
 }
