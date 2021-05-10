@@ -64,3 +64,81 @@ body{
 .logo-size{
 	width: 40%;
 }
+
+.container-cards{
+	/* display: flex; */
+}
+.card-small{
+	height: 250px;
+	border: none!important;
+}
+.card-large{
+	height: 338px;
+}
+.card-body-small {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 60%;
+	transform: translate(-50%, -50%);
+}
+.card-body-large{
+	width: 90%;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.align-text{
+	text-align: center;
+}
+.card-button{
+	width: 100%;
+	border: none;
+	border-radius: 20px;
+	font-size: 20px;
+	line-height: 2;
+}
+.btn-more-info{
+	width: 52%;
+}
+.card-title {
+	margin-bottom: 1em!important;
+}
+.bg-color-card{
+	background-color: #FFE197!important;
+}
+
+.text-lg-uppercase{
+	font-size: 40px;
+	margin-bottom: 110px;
+}
+.container-ice-logo{
+	margin-bottom: 45px;
+}
+.title-ice-logo span{
+	padding-left: 39px;
+	padding-right: 30px;
+}
+.ice-logo{
+	width: 75%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title-ice-logo{
+	font-size: 18px;
+	padding-top: 3%;
+}
+.text-livraison{
+	position: absolute;
+	top: 96%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.circle{
+	
+}
