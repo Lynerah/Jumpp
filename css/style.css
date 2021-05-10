@@ -59,7 +59,12 @@ body{
 }
 
 .nav-item a{
-	
+	color: white!important;
+	margin: 5px;
+	background-color: black;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+
 }
 .container-logo{
 	text-align: center;
@@ -156,6 +161,7 @@ body{
 }
 .container-social-media{
 	text-align: center;
+	margin-bottom: 25px;
 }
 .circle{
 	background-color: black;
@@ -175,7 +181,7 @@ body{
 	width: 20px;
 	height: auto;
 }
-a{
+footer a{
 	text-decoration: none!important;
 	color: white!important;
 }
@@ -183,9 +189,16 @@ footer{
 	text-align: center;
 	margin: 4% auto;
 }
+
+footer p{
+	font-family: 'Oswald', sans-serif;
+}
 .uppercase{
 	text-transform: uppercase;
 }
 .font-shadows{
 	font-family: 'Shadows Into Light', cursive;
+}
+.bold{
+	font-weight: bold;
 }
