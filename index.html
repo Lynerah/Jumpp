@@ -11,11 +11,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 	<script src=" "></script>
 </head>
 <body>
 	<header class="container-top">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light">
 			  <div class="container-fluid">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
@@ -29,18 +30,23 @@
 					  <a class="nav-link" href="#">Glaces</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" href="#">Gauffres</a>
+					</li>
+					<li class="nav-item">
 					  <a class="nav-link" href="#">Fruits</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="#">Gauffres</a>
+						<a class="nav-link" href="#">Contact</a>
 					</li>
 				  </ul>
 				</div>
 			  </div>
 			</nav>
 		<div class="container-logo">
-			<img class="logo-size" src="assets/medias/logo.svg"
+			<img class="logo-size logo-small-screen" src="assets/medias/logo.svg"
 			 alt="Logo" />
+			 <img class="logo-size logo-large-screen" src="assets/medias/rond-logo.svg"
+			  alt="Logo" />
 		</div>
 	</header>
 	<section class="container-cards">
@@ -96,11 +102,15 @@
 			<a class="circle"><img src="assets/medias/logo-plan.svg"/></a>
 			<a class="circle"><img src="assets/medias/logo-tripadvisor.svg"/></a>
 		</div>
+		<form>
+			<input type="email" placeholder="Email address" name="mail"/>
+			<input type="submit" value="S'inscrire">
+		</form>
 		<p>Ouvert de 11 à 19h</p>
 		<p class="uppercase bold">Jumpp - ice bar</p>
 		<p class="uppercase">Place Louise 01</p>
 		<p class="uppercase">1000 Bruxelles</p>
-		<p class="uppercase">02 333 32 13</p>
+		<p class="uppercase"><i class="fas fa-phone-alt"></i>02 333 32 13</p>
 		<img src="assets/medias/info.png" />
 		<p>&#169; 2016 jumpp | Site by Cepegra </p>
 	</footer>

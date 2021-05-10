@@ -72,17 +72,15 @@ body{
 .logo-size{
 	width: 40%;
 }
-
-.container-cards{
-	/* display: flex; */
+.logo-large-screen{
+	display: none;
 }
+
 .card-small{
 	height: 250px;
 	border: none!important;
 }
-.card-large{
-	/* height: 338px;*/
-}
+
 .card-body-small {
 	position: absolute;
 	top: 50%;
@@ -205,10 +203,16 @@ footer p{
 .bold{
 	font-weight: bold;
 }
-
+form{
+	display: flex;
+	justify-content: center;
+}
+form input[type="email"] {
+	margin-right: 3px;
+}
 @media screen and (min-width: 768px)
 {
-	
+
 	.container-cards{
 		display: flex;
 		flex-wrap: wrap;
@@ -249,4 +253,27 @@ footer p{
 	.nav-item a:hover{
 		text-decoration: underline;
 	}
+	.container-logo{
+		background-image: url(../assets/medias/header.jpg),url(../assets/medias/rond-logo.svg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 93%;
+		height: 376px;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		border-radius: 20px;
+	}
+	.logo-small-screen{
+		display: none;	
+	}
+	
+	.logo-large-screen {
+		display: block;
+		height: 242px;
+		margin: auto;
+		padding-top: 30px;
+	}
+	.text-livraison {
+		top: 83%;
 }
